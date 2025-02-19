@@ -24,6 +24,7 @@ The Book Management API is a RESTful web service built with .NET 8 that allows u
   - Request Body:
 ```csharp
 {
+  "id": 0,
   "title": "Book Title",
   "publicationYear": 2023,
   "authorName": "Author Name",
@@ -35,6 +36,7 @@ The Book Management API is a RESTful web service built with .NET 8 that allows u
 ```csharp
 [
   {
+    "id": 0,
     "title": "Book Title 1",
     "publicationYear": 2023,
     "authorName": "Author Name 1",
