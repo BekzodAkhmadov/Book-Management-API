@@ -22,6 +22,7 @@ The Book Management API is a RESTful web service built with .NET 8 that allows u
 
 - **POST /api/books**: Create a new book.
   - Request Body:
+
 ```csharp
 {
   "id": 0,
@@ -29,10 +30,12 @@ The Book Management API is a RESTful web service built with .NET 8 that allows u
   "publicationYear": 2023,
   "authorName": "Author Name",
   "viewsCount": 0
-}```
+}
+```
 
 - **POST /api/books/bulk**: Create multiple books in bulk.
   - Request Body:
+
 ```csharp
 [
   {
