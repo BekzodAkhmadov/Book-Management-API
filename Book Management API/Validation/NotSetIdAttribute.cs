@@ -8,7 +8,7 @@ namespace Book_Management_API.Attributes
         {
             if (value is int id && id != 0)
             {
-                return new ValidationResult("Id should not be set manually.");
+                return new ValidationResult("Id should not be set manually, it should remain with default value.");
             }
             return ValidationResult.Success;
         }
