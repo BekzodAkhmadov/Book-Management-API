@@ -15,8 +15,8 @@ The Book Management API is a RESTful web service built with .NET 8 that allows u
 
 - **GET /api/books**: Retrieve a paginated list of books.
   - Query Parameters:
-    - `pageNumber`: The page number (default: 1).
-    - `pageSize`: The number of items per page (default: 10).
+    - `pageNumber`: The page number.
+    - `pageSize`: The number of items per page.
 
 - **GET /api/books/{id}**: Retrieve the details of a specific book by its ID, including the popularity score.
 
