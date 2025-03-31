@@ -3,13 +3,13 @@ name: "Dep jobs example"
 on: ['push']
 
 jobs:
-  job2:
+  Test:
     runs-on: ubuntu-latest
-    needs: job1
+    needs: Build
     steps:
      - name: Build
        run: echo "Build is completed" 
-  job1:
+  Build:
     runs-on: ubuntu-latest
     steps: 
      - name: Test
